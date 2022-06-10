@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Viral Recipe Page</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container-fluid"">
+            <a href=" #" class="navbar-brand">food-e</a>
+            <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navLinks" aria-controls="#navLinks" aria-expanded="false"
+                aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navLinks">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#recipes" class="nav-link">Recipes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#foodNews" class="nav-link">Food News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#videos" class="nav-link">Videos</a>
+                    </li>
+                </ul>
+                <div class="ms-auto">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <button class="btn" id="subscribe" data-bs-toggle="modal"
+                                data-bs-target="#signUp">Subscribe</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn" id="signIn" data-bs-toggle="modal" data-bs-target="#login">Sign
+                                In</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="d-none d-md-block col-md-4 col-lg-3">
+                    <div>
+                        <img src="img/1.jpg" alt="A Picture of A Drink" class="topPathingImg">
+                        <div class="row">
+                            <div class="col-2">
+                                <p class="topPathingNum">1</p>
+                            </div>
+                            <div class="col-9">
+                                <p class="topPathingCap"></span><a href="#">Best Summer Drinks</a></p>
+                            </div>
+                            <div class="col-1"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none d-md-block col-md-4 col-lg-3">
+                    <div>
+                        <img src="img/2.jpg" alt="A Picture of Many Dishes" class="topPathingImg">
+                        <div class="row">
+                            <div class="col-2">
+                                <p class="topPathingNum">2</p>
+                            </div>
+                            <div class="col-9">
+                                <p class="topPathingCap"><a href="#"> Quick and Easy Recipes You Have To Try</a>
+                                </p>
+                            </div>
+                            <div class="col-1"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none d-md-block col-md-4 col-lg-3">
+                    <div>
+                        <img src="img/3.jpg" alt="A Picture of Various Vegetables" class="topPathingImg">
+                        <div class="row">
+                            <div class="col-2">
+                                <p class="topPathingNum">3</p>
+                            </div>
+                            <div class="col-9">
+                                <p class="topPathingCap"><a href="#">Healthy Ways To Spice Up Your Meal</a></p>
+                            </div>
+                            <div class="col-1"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="d-none d-lg-block col-lg-3">
+                    <div>
+                        <img src="img/4.jpg" alt="A Picture Of Ice Cream" class="topPathingImg">
+                        <div class="row">
+                            <div class="col-2">
+                                <p class="topPathingNum">4</p>
+                            </div>
+                            <div class="col-9">
+                                <p class="topPathingCap"><a href="#">5 Sweet Ways To Stay Cool All Summer</a></p>
+                            </div>
+                            <div class="col-1"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="py-4">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col text-center"">
+                        <h1 class=" display-2">
+                        This Viral Pasta Recipe Is Worth The Hype
+                        </h1>
+                        <div class="col text-center">
+                            <img src=" https://randomuser.me/api/portraits/women/11.jpg" alt=""
+                                class="rounded-circle py-2 " style="width: 5%;">
+                            <p id="autName" class="mb-0">By <a href=" #">Nina Patterson</a></p>
+                            <p id="date">
+                                June 9, 2022
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-3">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <img src="img/5.jpg" alt="A Picture of Pasta" class="img-fluid">
+                        <p>
+                            <a href="https://unsplash.com/@dacakockica" id="mainPhotoCredit">
+                                (Danijela Prijovic/Unsplashed)</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-4">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-8 order-lg-1 order-md-2 order-sm-2 order-2">
+                        <p class="introText">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ab deserunt ipsum
+                            cupiditate, consequuntur alias pariatur amet libero est id impedit veritatis, exercitationem
+                            aliquid assumenda molestias delectus reiciendis repellat facilis quam optio omnis. Placeat
+                            dolorem molestiae cumque ratione unde odit consectetur nemo, provident quas sed in ipsam
+                            possimus! Veritatis ipsa dicta aut quo quos nam excepturi ipsam, quod vitae vero delectus
+                            molestias aliquam fugiat tempore atque exercitationem, facilis, molestiae culpa dolorum quam
+                            laudantium accusantium laborum magni! Deserunt laudantium quas aliquam nam voluptatum hic
+                            veniam
+                            assumenda!
+                        </p>
+                        <ol class="introText">
+                            <li><strong> Neque magnam dolores suscipit eos iure quae.</strong> Perspiciatis odit dolorum
+                                repellendus
+                                ipsam deserunt deleniti nesciunt exercitationem culpa eveniet illo, debitis est amet
+                                incidunt
+                                eum saepe temporibus? Quia laborum et earum minus ratione in enim corporis id sequi!
+                            </li>
+                            <li><strong> Inventore
+                                    eaque explicabo voluptatem quasi totam quae possimus minima!</strong> Consequatur
+                                aut, earum
+                                fugiat
+                                porro
+                                voluptas maxime aperiam atque cum! Iste unde facere saepe eos enim sit ab iusto esse
+                                repellendus
+                                optio quos adipisci, culpa est ad delectus ex, obcaecati magni neque animi, accusantium
+                                totam
+                                maxime.</li>
+                            <li><strong> Voluptatem quisquam doloribus deleniti libero inventore animi nam.</strong>
+                                Exercitationem,
+                                odit
+                                fugiat! Lorem ipsum, dolor sit amet consectetur adipisicing. Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Culpa necessitatibus enim qui dolor ea! Doloremque!</li>
+                        </ol>
+                        <p class="introText">
+                            Aliquid tenetur nam veritatis nostrum enim eius deserunt similique sunt? Placeat
+                            veritatis temporibus blanditiis doloribus distinctio, ullam rem laborum quos labore.
+                            Reiciendis
+                            obcaecati ipsum commodi perspiciatis reprehenderit illo similique sint rerum ipsam quos
+                            autem
+                            consequuntur ducimus id, nobis molestias, nam qui magni amet. Aliquam porro voluptatum
+                            necessitatibus a, at laudantium voluptas architecto maiores soluta, non et. Iusto
+                            consectetur
+                            illum labore asperiores eos nemo dolores odit iure sapiente dolorum dolorem excepturi
+                            inventore
+                            tenetur provident odio, eaque voluptates eum? Praesentium rem reiciendis perferendis maxime
+                            similique nihil id aut at ex cum perspiciatis, harum a magni hic expedita qui laborum ad
+                            optio.
+                            Cumque alias quia nesciunt neque nulla nobis enim vel, error quas deleniti numquam,
+                            corporis,
+                            tempora unde accusantium earum est vitae modi! Harum, at?
+                        </p>
+                    </div>
+                    <div class="col-lg-4 order-lg-2 order-md-1 order-sm-1 order-1 my-2">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col mb-4">
+                                    <h3 class="fw-bold display-5">Trending</h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <p class="topPathingNum">1</p>
+                                </div>
+                                <div class="col-10">
+                                    <p class="topPathingCap"></span><a href="#">Best Summer Drinks</a></p>
+                                    <hr>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <p class="topPathingNum">2</p>
+                                </div>
+                                <div class="col-10">
+                                    <p class="topPathingCap"><a href="#"> Quick and Easy Recipes You Have To Try</a>
+                                        <hr>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <p class="topPathingNum">3</p>
+                                </div>
+                                <div class="col-10">
+                                    <p class="topPathingCap"><a href="#">Healthy Ways To Spice Up Your Meal</a></p>
+                                    <hr>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <p class="topPathingNum">4</p>
+                                </div>
+                                <div class="col-10">
+                                    <p class="topPathingCap"><a href="#">5 Sweet Ways To Stay Cool All Summer</a></p>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="py-4">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="row mx-sm-1">
+                            <div class="col-6 text-center py-4" id="feeds">
+                                <p class="pb-2 fw-bold">
+                                    Feeds:
+                                </p>
+                                <p class="chartCol">
+                                    4
+                                </p>
+                            </div>
+                            <div class="col-6 text-center py-4" id="totalTime">
+                                <p class="pb-2 fw-bold">Total Time:</p>
+                                <p><span class="chartCol">0</span> hours <span class="chartCol">45</span> Minutes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-4">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3 class="fw-bold">
+                                    INGREDIENTS
+                                </h3>
+                                <ul class="list-unstyled" id="list">
+                                    <li>2 pt. cherry or grape tomatoes</li>
+                                    <li>1 shallot, quartered</li>
+                                    <li>3 cloves garlic, smashed</li>
+                                    <li>1/2 c. extra-virgin olive oil, divided</li>
+                                    <li>Kosher salt</li>
+                                    <li>Pinch crushed red pepper flakes</li>
+                                    <li>1 (8-oz.) block feta</li>
+                                    <li>3 sprigs fresh thyme</li>
+                                    <li>10 oz. pasta</li>
+                                    <li>Zest of 1 lemon (optional)</li>
+                                    <li>Fresh basil, for garnish</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6" id="directions">
+                                <h3 class="fw-bold">DIRECTIONS</h3>
+                                <div class="row">
+                                    <div class="col-2">1</div>
+                                    <div class="col-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                                        non nam assumenda accusantium iusto debitis inventore. Ea et est earum esse,
+                                        praesentium eveniet non ratione quisquam laboriosam id corrupti maxime.</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2">2</div>
+                                    <div class="col-10">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Laudantium earum odit ipsa amet quidem aut quaerat! Iusto ullam quibusdam hic,
+                                        non quos quo nostrum doloribus?</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2">3</div>
+                                    <div class="col-10">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Architecto, itaque illum. Amet deserunt ut fugiat inventore deleniti animi
+                                        dolorum adipisci repellat rem, voluptatum porro debitis necessitatibus, nulla
+                                        ratione, aspernatur cum sunt laborum aliquam veniam aut.</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2">4</div>
+                                    <div class="col-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                                        dicta totam tempora, necessitatibus sed quisquam fugit doloremque odio sit in
+                                        recusandae earum itaque animi aperiam at quam. Fugit architecto quod suscipit
+                                        nisi mollitia numquam excepturi sed velit, impedit odit inventore.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="p-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <label for="comments" class="display-4 mb-3" id="reviews">Reviews</label>
+                        <input type="text" style="width:100%; height: 250px" id="comments" name="comments">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container-fluid text-center p-5">
+                <div class="row">
+                    <p class="lead">
+                        Copyright &copy; food-e Corporations
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <div class="modal fade" id="signUp" tabindex="-1" aria-labelledby="signUpLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="enrollLabel">Sign Up</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <div class="mb-3">
+                                <label for="first-name" class="col-form-label">First Name:</label>
+                                <input type="text" class="form-control" id="first-name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="last-name" class="col-form-label">Last Name:</label>
+                                <input type="text" class="form-control" id="last-name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="col-form-label">Email:</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="login" tabindex="-2" aria-labelledby="signInLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="signInLabel">Sign In</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <div class="mb-3">
+                                <label for="emailSignIn" class="col-form-label">Email:</label>
+                                <input type="emailSignIn" class="form-control" id="emailSignIn">
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="col-form-label">Password:</label>
+                                <input type="password" class="form-control" id="password">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Sign In </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

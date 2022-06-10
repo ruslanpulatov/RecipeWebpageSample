@@ -1,0 +1,203 @@
+body {
+    margin: 0 10rem 0;
+    background-color: rgb(250, 249, 249);
+    font-family: 'Lora', serif;
+}
+
+.navbar-brand {
+    color: black;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: xx-large;
+    transition: 0.2s;
+}
+
+.navbar-brand:hover {
+    color: #cfe1b9;
+}
+
+#mainNav {
+    background-color: rgb(250, 249, 249);
+    margin: 0rem 10rem 0rem;
+    padding: 0.5rem 0;
+    color: black;
+}
+
+.nav-link {
+    color: black;
+    font-family: 'Lora', serif;
+    margin: 0 1rem 0;
+}
+
+.nav-link:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.nav-item button {
+    font-family: 'Lora', serif;
+    margin-left: 0.5rem;
+    font-weight: 700;
+}
+
+#subscribe {
+    background-color: #cfe1b9;
+    box-shadow: 0 0 3px gainsboro;
+    transition: 0.2s;
+}
+
+#subscribe:hover {
+    background-color: #a7b695;
+    color: white;
+}
+
+#signIn:hover {
+    border: 1px solid #a7b695;
+    color: #a7b695;
+}
+
+.topPathingImg {
+    display: flex;
+    width: 15rem;
+    height: 8.5rem;
+    object-fit: cover;
+}
+
+.topPathingNum {
+    font-size: xx-large;
+    color: #a7b695;
+}
+
+.topPathingCap a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+}
+
+.topPathingCap a:hover {
+    text-decoration: underline;
+}
+
+#autName a {
+    color: black;
+}
+
+#date {
+    color: grey;
+}
+
+#mainPhotoCredit {
+    color: grey;
+    text-decoration: none;
+}
+
+.introText {
+    line-height: 2;
+}
+
+#feeds,
+#totalTime {
+    border: 1px solid #a7b695;
+    border-top: 15px solid #a7b695;
+    font-size: large;
+
+}
+
+.chartCol {
+    font-weight: 700;
+    color: #a7b695;
+}
+
+#list {
+    line-height: 2.5;
+    font-size: 1.1rem;
+}
+
+#directions .row {
+    line-height: 2;
+}
+
+#directions .row .col-2 {
+    font-weight: 700;
+    font-size: xx-large;
+    color: #a7b695;
+}
+
+#reviews {
+    font-weight: 700;
+    color: #a7b695;
+}
+
+footer {
+    background-color: grey;
+    color: white;
+}
+
+.modal-footer button {
+    background-color: #a7b695;
+    border: 1px solid #a7b695;
+}
+
+.modal-footer button:hover {
+    background-color: rgb(250, 249, 249);
+    color: #a7b695;
+    border: 1px solid #a7b695;
+}
+
+@media(max-width: 768px) {
+    #mainNav {
+        margin: 0 0 0;
+        padding: 0;
+    }
+
+    body {
+        margin: 0.3rem 0 0;
+        padding: 0;
+    }
+}
+
+@media(max-width: 1330px) {
+    .topPathingImg {
+        width: 13rem;
+        height: 6.5rem;
+    }
+}
+
+@media(max-width: 1200px) {
+    .topPathingImg {
+        width: 11.5rem;
+        height: 6.5rem;
+    }
+}
+
+@media(max-width: 1100px) {
+    .nav-link {
+        margin: 0;
+    }
+
+    .topPathingImg {
+        width: 11rem;
+        height: 5.5rem;
+    }
+}
+
+@media(max-width: 1070px) {
+    .topPathingImg {
+        width: 10rem;
+        height: 5.5rem;
+    }
+}
+
+@media(max-width: 840px) {
+    .topPathingImg {
+        width: 9rem;
+        height: 4.5rem;
+    }
+}
+
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
